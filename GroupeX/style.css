@@ -10,6 +10,3 @@ li.omar {
 li.baptiste {
     color:orange;
 }
-li.highlight {
-    color: lighten(blue, 20%);
-}
