@@ -3,7 +3,7 @@
     const display = document.getElementById('display');
         
     paragraphs.forEach(p => {
-        p.addEventListener('mouseenter', function() {
+        p.addEventListener('mouseover', function() {
             display.textContent = id;
         });
             
