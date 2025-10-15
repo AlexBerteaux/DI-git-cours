@@ -1,7 +1,7 @@
-let p1 = document.getElementById("basile")
-let p2 = document.getElementById("omar")
-let p3 = document.getElementById("sevan")
-let p4 = document.getElementById("baptiste")
+let p1 = index.getElementById("basile")
+let p2 = index.getElementById("omar")
+let p3 = index.getElementById("sevan")
+let p4 = index.getElementById("baptiste")
 
 p1.addEventListener('mouseover', (e) => {
     console.log("Basile");
