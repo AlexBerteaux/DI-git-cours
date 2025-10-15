@@ -1,17 +1,14 @@
-  
-    <script>
-        const paragraphs = document.querySelectorAll('.paragraph');
-        const display = document.getElementById('display');
+<script>
+    const paragraphs = document.querySelectorAll('.paragraph');
+    const display = document.getElementById('display');
         
-        paragraphs.forEach(p => {
-            p.addEventListener('mouseenter', function() {
-                display.textContent = id;
-            });
-            
-            p.addEventListener('mouseleave', function() {
-                display.textContent = '';
-            });
+    paragraphs.forEach(p => {
+        p.addEventListener('mouseenter', function() {
+            display.textContent = id;
         });
-    </script>
-</body>
-</html>
+            
+        p.addEventListener('mouseleave', function() {
+            display.textContent = '';
+        });
+    });
+</script>
